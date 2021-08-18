@@ -27,3 +27,18 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1e1e1e;
+    color: lightgray;
+  }
+
+  .blue.lighten-1 {
+    background-color: rgb(53, 74, 114) !important;
+  }
+
+  .brand-logo {
+    color: lightgray !important;
+  }
+}

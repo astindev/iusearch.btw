@@ -29,7 +29,6 @@ main {
   flex: 1 0 auto;
 }
 
-@media (prefers-color-scheme: dark) {
   body {
     background-color: #3b4252;
     color: lightgray;
@@ -49,4 +48,3 @@ main {
   .brand-logo {
     color: lightgray !important;
   }
-}

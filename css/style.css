@@ -13,6 +13,7 @@
 	font-size: inherit;
 }
 
+
 body {
   display: flex;
   min-height: 100vh;
@@ -30,12 +31,19 @@ main {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #1e1e1e;
+    background-color: #3b4252;
     color: lightgray;
   }
 
   .blue.lighten-1 {
-    background-color: rgb(53, 74, 114) !important;
+    background-color: #2e3440 !important;
+  }
+  
+  #download-button {
+    background-color: #434c5e !important;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: #707c94;
   }
 
   .brand-logo {

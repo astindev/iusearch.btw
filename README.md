@@ -2,4 +2,4 @@
 
 ## Introduction
 
-My version was based on the Nordtheme theme
+My version was based on the Nordtheme
